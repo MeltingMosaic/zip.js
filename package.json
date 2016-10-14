@@ -1,0 +1,22 @@
+{
+  "name": "zip.js",
+  "version": "1.0.0",
+  "description": "zip.js, reformatted with require.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeltingMosaic/zip.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeltingMosaic/zip.js/issues"
+  },
+  "homepage": "https://github.com/MeltingMosaic/zip.js#readme"
+}
