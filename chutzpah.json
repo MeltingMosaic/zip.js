@@ -1,0 +1,14 @@
+{
+    "Framework": "mocha",
+    "MochaInterface": "bdd",
+    "TestHarnessReferenceMode": "AMD",
+    "TestHarnessLocationMode": "SettingsFileAdjacent",
+    "EnableTestFileBatching": true,
+    "References" : [         
+        { "Path": "node_modules/chai/chai.js", "IsTestFrameworkFile": "true" },
+        { "Path" : "node_modules/requirejs/require.js", "IsTestFrameworkFile": "true" }
+    ],
+    "Tests" : [
+      {"Path": "test", "Includes":["*.js"], "Excludes":["*.d.ts", "*node_modules/*"]}
+    ]
+}
